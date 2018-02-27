@@ -1,0 +1,7 @@
+insmod iDevice.ko
+cat /proc/devices
+mknod /dev/zzaDevice c [master] [slave]
+ls /dev/
+
+rm /dev/zzaDevice
+rmmod iDevice.
